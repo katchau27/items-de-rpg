@@ -20,14 +20,16 @@ body{
     
 }
 
-.content{
-    background-color:darkgray ;
-    width:320px;
-    height:320px;
+img{
+    background-color: darkgray;
     border-radius: 20px;
 }
 .text{
+    justify-self: flex-start;
     text-align: justify;
     color:lightyellow ;
     font-size: 20px;
+}
+.sub-titles{
+    color: yellow;
 }
