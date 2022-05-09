@@ -83,3 +83,9 @@ body{
 .details{
     color:darkgrey;
 }
+footer{
+    background-color:rgb(140, 140, 140) ;
+}
+.about{
+    font-size: 18px;
+}
