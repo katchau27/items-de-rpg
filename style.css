@@ -8,11 +8,15 @@ body{
     height: 100vh;
     font:20px arial;
 }
+header{
+    text-align: center;
+    color:black;
+}
 #header{
     background-color: gray;
     display:grid;
-    grid-template-areas:"a1 a2 a3 a6"
-                        "a4 a4 a4 a5";
+    grid-template-areas:"a1 a2  a6"
+                        "a4 a4  a5";
             
     align-items: center;
     height: 100px;
@@ -28,9 +32,6 @@ body{
 }
 .sobre{
     grid-area: a2;
-}
-.rpg{
-    grid-area: a3;
 }
 .form-control{
     grid-area: a4;
